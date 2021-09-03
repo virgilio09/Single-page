@@ -1,20 +1,6 @@
-/* navbar */
-.navbar .navbar-nav {
-    display: flex;
-    justify-content: center;
-    width: 100%;
+/* Slide */
+.carousel-item{
+    height: 60vh;
 }
 
-
-.banner .carousel-item{
-    height: 100vh;
- }
-
- .banner .capa{
-    position: absolute;
-    top: 320px;
-    left: 50%;
-    transform: translate(-50%, -50%); 
-
-
- }
+/* Content-text */
