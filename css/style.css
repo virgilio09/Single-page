@@ -14,17 +14,17 @@
 /* =============== herder ==================== */
 
 /* nav */
-
-
 header .navbar .nav-link:hover,
 header .navbar .navbar-link:focus{
     border-bottom: 1px solid #7AE445;
    
 }
 
-
-
-/* =============== Button ===================== */
+/* =============== icone ===================== */
+.bi {
+    margin-right: 5px;
+    color: #7AE445;
+}
 
 .btn-custom {
     background: #7AE445;
@@ -43,13 +43,28 @@ header .navbar .navbar-link:focus{
     font-weight: 700;
 }
 
-.title-content .bi {
-    margin-right: 5px;
-    color: #7AE445;
-}
+
 /* ================ about =================== */
 
 #sobre p {
     text-align: justify;
     font-weight: 400;
+}
+
+/*===================Footer ====================*/
+
+footer {
+    background: #093364;
+    padding: 2px;
+}
+
+footer p, h3{
+    color: #fff;
+
+}
+
+footer .nav .nav-link:hover,
+footer .nav .navbar-link:focus{
+    color:  #7AE445;
+   
 }
