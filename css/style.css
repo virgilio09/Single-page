@@ -1,6 +1,55 @@
-/* Slide */
+/*================= Slide ======================*/
 .carousel-item{
     height: 60vh;
 }
 
-/* Content-text */
+.carousel-caption h1{
+    font-weight: 700;
+    color: #f29c12;
+   
+}
+.carousel-caption p {
+    font-weight: 500;
+}
+/* =============== herder ==================== */
+
+/* nav */
+
+
+header .navbar .nav-link:hover,
+header .navbar .navbar-link:focus{
+    border-bottom: 1px solid #7AE445;
+   
+}
+
+
+
+/* =============== Button ===================== */
+
+.btn-custom {
+    background: #7AE445;
+}
+
+/*================ tipografia ==================*/
+
+.title-content {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.title-content h2 {
+    color: #f29c12;
+    font-weight: 700;
+}
+
+.title-content .bi {
+    margin-right: 5px;
+    color: #7AE445;
+}
+/* ================ about =================== */
+
+#sobre p {
+    text-align: justify;
+    font-weight: 400;
+}
